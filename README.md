@@ -18,10 +18,10 @@ PRD for **Guided Recovery**, a proposed feature that [ONE LINE: what it does for
 → **[Read the PRD]([NETLIFY LINK])**
 
 These are survey associations, not causal effects. The PRD treats Guided Recovery as a hypothesis to test.
-
-## What changed from the original thesis
-- [Difference 1: to add]
-- [Difference 2: to add]
+## What the reanalysis showed
+This project tested the stability of my thesis conclusions through reproducible validation.
+The main relationships held: perceived ease of use, speed, and security remain the strongest
+drivers of satisfaction. The predictive and causal claims need to be stated more modestly.
 - Full comparison: [docs/RESULTS.md](docs/RESULTS.md)
 
 ## Data and privacy
