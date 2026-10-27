@@ -1,8 +1,32 @@
-# Self-checkout customer satisfaction
+# Self-Checkout Customer Satisfaction: Thesis Reanalysis
 
-Jennifer Isaac's reproducible thesis reanalysis: **207 observations, all retained**. OLS and principal component regression analyze associations with satisfaction. PCA/K-means explore customer profiles; a shallow decision tree explains algorithmic cluster assignments.
+**What drives customer satisfaction at self-checkout, and what should a product team do about it?**
 
-**Status:** validated research project; the author approved a private GitHub repository. Public release and respondent-level data sharing remain unapproved. This is an exploratory academic portfolio project, not a deployed product or causal impact study. The original Python notebook has now been inspected and preserved unchanged. The author selected the newer Python analysis as the portfolio focus. Results use its original workbook and row order; thesis specifications remain clearly labeled comparisons.
+I rebuilt my master's thesis analysis (originally in Excel, SPSS, and Orange) as reproducible
+Python code to test whether the original findings hold up under stricter validation, then used
+the results to frame a product hypothesis.
+
+## Key findings
+- **Perceived** ease of use, speed, and security had the strongest positive associations with satisfaction.
+- **Self-reported transaction time did not.** How fast checkout felt mattered more than how long people said it took.
+- Two customer segments emerged: 163 respondents averaging 8.1/10 satisfaction, and 44 averaging 5.1/10.
+- On held-out data, the model explains roughly 57–59% of the variation in satisfaction (5-fold cross-validation).
+
+## From findings to product
+These results point to friction in the checkout experience, not raw speed. I translated them into a
+PRD for **Guided Recovery**, a proposed feature that [ONE LINE: what it does for the customer].
+→ **[Read the PRD]([NETLIFY LINK])**
+
+These are survey associations, not causal effects. The PRD treats Guided Recovery as a hypothesis to test.
+
+## What changed from the original thesis
+- [Difference 1: to add]
+- [Difference 2: to add]
+- Full comparison: [docs/RESULTS.md](docs/RESULTS.md)
+
+## Data and privacy
+Code and aggregate findings are public. Respondent-level survey data are excluded and are not
+redistributed; access is subject to participant consent and institutional terms.
 
 Private repository: [Jlopatra92/self-checkout-customer-satisfaction](https://github.com/Jlopatra92/self-checkout-customer-satisfaction).
 
@@ -38,7 +62,7 @@ python -m pip install -r requirements-lock.txt
 python -m ipykernel install --sys-prefix --name python3 --display-name 'Self-checkout project'
 ```
 
-Place the privately authorized **Survey Data.xlsx** workbook at `data/raw/survey_working_207.xlsx`. Keep its High Value, Survey, and New Data sheets and source column names unchanged. The notebook analyzes High Value and audits the text-response sheets without replacing the analysis values. A local ignored copy is already present in the author's workspace; the public package deliberately excludes it. See the provenance document for the required schema. Without authorized data, readers can inspect code and the documented aggregate findings but cannot reproduce the empirical results. No synthetic data are passed off as thesis data.
+Place the privately authorized **Survey Data.xlsx** workbook at `data/raw/survey_working_207.xlsx`. Keep its High Value, Survey, and New Data sheets and source column names unchanged. The notebook analyzes High Value and audits the text-response sheets without replacing the analysis values. A local ignored copy is already present in the author's workspace; the public package deliberately excludes it. See the provenance document for the required schema. Without authorized data, readers can inspect code and the documented aggregate findings but cannot reproduce the empirical results. No synthetic data is passed off as thesis data.
 
 From the project root:
 
@@ -67,7 +91,7 @@ outputs/    ignored execution results and private diagnostics
 
 ## Interpretation and access
 
-PCA predictor variance is not satisfaction-model R². The tree predicts constructed cluster membership, not independently observed satisfaction. Same-survey associations cannot establish what an intervention would change. Midpoint coding, purposive sampling, four unmatched raw/analysis profile occurrences on each side of the lineage check, and self-reported time measurement limit conclusions. Do not infer actual checkout technology adoption from the thesis title.
+PCA predictor variance is not the satisfaction-model R². The tree predicts constructed cluster membership, not independently observed satisfaction. Same-survey associations cannot establish what an intervention would change. Midpoint coding, purposive sampling, four unmatched raw/analysis profile occurrences on each side of the lineage check, and self-reported time measurement limit conclusions. Do not infer actual checkout technology adoption from the thesis title.
 
 No respondent-level data, private source documents, executed notebook, or local diagnostic plots are included in the public package. No redistribution permission or open-data license is implied. Contact the author to discuss permitted access; data sharing remains subject to consent and institutional requirements.
 
