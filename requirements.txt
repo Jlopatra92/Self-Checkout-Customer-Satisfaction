@@ -1,0 +1,13 @@
+# Tested on Python 3.14. Other Python versions are unverified.
+numpy==2.4.6
+pandas==3.0.3
+scipy==1.18.0
+scikit-learn==1.9.0
+statsmodels==0.14.6
+matplotlib==3.11.0
+openpyxl==3.1.5
+nbformat==5.10.4
+nbclient==0.11.0
+ipykernel==6.31.0
+jupyterlab==4.5.9
+nbconvert==7.17.1
