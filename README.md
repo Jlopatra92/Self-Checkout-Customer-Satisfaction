@@ -1,5 +1,5 @@
 # Self-Checkout Customer Satisfaction: Thesis Reanalysis
-#Original thesis: [https://drive.google.com/file/d/1zhMc2vJ9APaAkxwdOBe9RyfGhhtHJgtL/view?usp=sharing].
+# Original thesis: [https://drive.google.com/file/d/1zhMc2vJ9APaAkxwdOBe9RyfGhhtHJgtL/view?usp=sharing].
 **What drives customer satisfaction at self-checkout, and what should a product team do about it?**
 
 I rebuilt my master's thesis analysis (originally in Excel, SPSS, and Orange) as reproducible
