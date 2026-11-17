@@ -1,5 +1,5 @@
 # Self-Checkout Customer Satisfaction: Thesis Reanalysis
-
+#Original thesis: [https://drive.google.com/file/d/1zhMc2vJ9APaAkxwdOBe9RyfGhhtHJgtL/view?usp=sharing].
 **What drives customer satisfaction at self-checkout, and what should a product team do about it?**
 
 I rebuilt my master's thesis analysis (originally in Excel, SPSS, and Orange) as reproducible
@@ -15,7 +15,7 @@ the results to frame a product hypothesis.
 ## From findings to product
 These results point to friction in the checkout experience, not raw speed. I translated them into a
 PRD for **Guided Recovery**, a proposed feature that [ONE LINE: what it does for the customer].
-→ **[Read the PRD]([NETLIFY LINK])**
+→ **[Read the PRD]([https://harmonious-longma-7a8baa.netlify.app/])**
 
 These are survey associations, not causal effects. The PRD treats Guided Recovery as a hypothesis to test.
 ## What the reanalysis showed
@@ -28,7 +28,7 @@ drivers of satisfaction. The predictive and causal claims need to be stated more
 Code and aggregate findings are public. Respondent-level survey data are excluded and are not
 redistributed; access is subject to participant consent and institutional terms.
 
-Private repository: [Jlopatra92/self-checkout-customer-satisfaction](https://github.com/Jlopatra92/self-checkout-customer-satisfaction).
+Public repository: [Jlopatra92/self-checkout-customer-satisfaction](https://github.com/Jlopatra92/self-checkout-customer-satisfaction).
 
 ## Start here
 
@@ -37,9 +37,6 @@ Private repository: [Jlopatra92/self-checkout-customer-satisfaction](https://git
 - [Original working notebook comparison](docs/WORKING_NOTEBOOK_REVIEW.md)
 - [Data provenance and privacy](docs/DATA_PROVENANCE.md)
 - [Validation record](docs/VALIDATION.md)
-- [Narrative decisions for Jennifer](docs/NARRATIVE_REVIEW.md)
-- [Step-by-step GitHub guide](docs/GITHUB_GUIDE.md)
-
 ## What the project contains
 
 1. Explicit schema, source fingerprint, missingness, coding, and duplicate-profile checks.
